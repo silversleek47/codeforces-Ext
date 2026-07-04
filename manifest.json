@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Codeforces C++ Template Injector",
+  "version": "1.0.0",
+  "description": "Drops a ready-to-go C++ competitive programming template into the Codeforces code editor.",
+  "permissions": [],
+  "host_permissions": ["https://codeforces.com/*"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+   "128":"images/icon.png",
+   "48":"images/icon.png",
+   "32":"images/icon.png",
+   "16":"images/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://codeforces.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
