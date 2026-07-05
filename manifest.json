@@ -9,10 +9,10 @@
     "default_popup": "index.html"
   },
   "icons": {
-   "128":"images/icon.png",
-   "48":"images/icon.png",
-   "32":"images/icon.png",
-   "16":"images/icon.png"
+   "128":"images/images.png",
+   "48":"images/images.png",
+   "32":"images/images.png",
+   "16":"images/images.png"
   },
   "content_scripts": [
     {
